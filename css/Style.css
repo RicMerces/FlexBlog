@@ -1,5 +1,6 @@
 *{
     font-family: 'Nunito', sans-serif;
+    margin: 0;
 }
 header{
     width: 100%;
@@ -11,9 +12,20 @@ header{
    
 }
 
+.container a{
+    color: #fff;
+    text-decoration: none;
+}
+
 /* Header Info */
 
-.header-info{
-    width: 100%;
+.header-info-bg{
     background: #122ab2;
+    color: #fff;
+}
+
+/* nav-bg */
+
+.nav-bg{
+    background: #2c70ff;
 }
