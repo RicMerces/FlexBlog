@@ -1,9 +1,18 @@
+/* Begin Configs */
 *{
     font-family: 'Nunito', sans-serif;
     margin: 0;
 }
 header{
     width: 100%;
+}
+
+p{
+    width: 300px;
+}
+
+img{
+    display: block;
 }
 
 .container{
@@ -29,3 +38,4 @@ header{
 .nav-bg{
     background: #2c70ff;
 }
+
