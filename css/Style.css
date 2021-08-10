@@ -43,6 +43,8 @@ img{
 
 /* Formatando */
 
+/* Infos  */
+
 .header-info-bg div {
     display: flex;
     flex-direction: row;
@@ -78,4 +80,26 @@ img{
     flex-direction: column;
     justify-content: center;
     height: 70px;
+}
+
+/* Propriedades */
+
+.Propriedades{
+    margin-top: 60px;
+}
+
+.Propriedades h1{
+    font-size: 48px;
+    color: #222222;
+    width: 500px;
+}
+
+.Propriedades h1::after{
+    margin: 50px auto;
+    content: "";
+    background: #2c70ff;
+    width: 1000px;
+    height: 2px;
+    display: flex;
+    align-content: center;
 }
