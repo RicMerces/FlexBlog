@@ -88,18 +88,41 @@ img{
     margin-top: 60px;
 }
 
-.Propriedades h1{
+.Propriedades h1, h2{
     font-size: 48px;
     color: #222222;
     width: 500px;
 }
 
-.Propriedades h1::after{
+.Propriedades hr{
     margin: 50px auto;
-    content: "";
     background: #2c70ff;
-    width: 1000px;
+    width: 100%;
     height: 2px;
     display: flex;
     align-content: center;
 }
+
+/* Sobre */
+
+.Propriedades .Sobre p{
+    margin-top: 30px;
+    color: #7c7c7c;
+    width: 450px;
+}
+
+.Propriedades .Sobre {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.Propriedades .Sobre .images{
+    display: flex;
+    align-items: flex-start;
+}
+
+.Propriedades .Sobre .images img{
+    margin-right: 10px;
+}
+
+
+
