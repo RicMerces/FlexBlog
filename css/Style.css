@@ -16,7 +16,7 @@ img{
 }
 
 .container{
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
    
 }
@@ -43,6 +43,22 @@ img{
 
 /* Formatando */
 
+.header-info-bg div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.header-info-bg{
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+/* Navbar */
 .nav-bg .nav li{
     font-size: 20px;
     font-weight: bold;
@@ -61,5 +77,5 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 80px;
+    height: 70px;
 }
