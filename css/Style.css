@@ -39,3 +39,27 @@ img{
     background: #2c70ff;
 }
 
+/* ----------------------------------------------------------------------------- */
+
+/* Formatando */
+
+.nav-bg .nav li{
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    color: #fff;
+    list-style: none;
+    margin: 5px;
+}
+ 
+.nav-bg .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+}
