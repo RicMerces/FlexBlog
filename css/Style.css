@@ -215,7 +215,7 @@ img{
 .Packages h2{
     color: #a4a4a4;
     font-size: 48px;
-    margin: 0 auto;
+    margin: 20px auto 0;
 }
 
 .Packages h3{
@@ -230,7 +230,7 @@ img{
 .Packages h3::after, .Packages h3::before{
     content: "";
     background: #fff;
-    width: 200px;
+    width: 320px;
     height: 4px;
     display: flex;
     justify-content: center;
@@ -239,8 +239,9 @@ img{
 }
 
 .Packages a{
+    text-align: center;
     margin: 30px auto;
-    padding: 5px 20px;
+    width: 80%;
     border: #222222 4px solid;
     color: #222222;
     font-weight: bold;
