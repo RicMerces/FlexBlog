@@ -258,3 +258,22 @@ img{
     font-style: italic;
     line-height: 40px;
 }
+
+
+/* Qualidades */
+
+.Qualidades{
+    margin: 50px auto;
+    color: #7c7c7c;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.Qualidades h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.Qualidades div{
+    margin:0 0 15px 15px;
+}
