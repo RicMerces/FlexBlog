@@ -88,7 +88,7 @@ img{
     margin-top: 60px;
 }
 
-.Propriedades h1, h2{
+.Propriedades h1,.Propriedades h2,.Propriedades h3{
     font-size: 48px;
     color: #222222;
     width: 500px;
@@ -114,6 +114,7 @@ img{
 .Propriedades .Sobre {
     display: flex;
     flex-wrap: nowrap;
+    margin-bottom: 80px;
 }
 .Propriedades .Sobre .images{
     display: flex;
@@ -125,4 +126,48 @@ img{
 }
 
 
+/* Products */
 
+.Propriedades .Products hr{
+  margin: 60px auto
+}
+
+.Propriedades .Products .Caixas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.Propriedades .Products .purple, .Propriedades .Products .pink,.Propriedades .Products .blue{
+    background: #f7f7f7;
+    width: 300px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Propriedades .Products img{
+    width: 100%;
+}
+.Propriedades .Products h3{
+    color: #a4a4a4;
+}
+
+.Propriedades .Products .TypeColor{
+    height: 170px;
+}
+
+.Propriedades .Products .TypeColor h3{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    margin-left: 20px;
+}
+.Propriedades .Products .TypeColor::before{
+    display: flex;
+    flex-direction: column;
+    content: "";
+    background: #2c70ff;
+    height: 10px;
+    width: 100%;
+    margin: 0;
+}
