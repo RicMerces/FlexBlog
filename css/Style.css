@@ -191,3 +191,69 @@ img{
 .Propriedades .Products .blue .TypeColor::before{
     background-color: #66d9eb;
 }
+
+
+/* Pacotes */
+
+.Packages{
+    justify-content: space-around;
+    background: #f7f7f7;
+    display: flex;
+    padding: 70px;
+    align-items: flex-end;
+    
+}
+
+.Packages .iron, .Packages .gold, .Packages .diamond{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: #ffff 4px solid;
+    
+}
+
+.Packages h2{
+    color: #a4a4a4;
+    font-size: 48px;
+    margin: 0 auto;
+}
+
+.Packages h3{
+    color: #222222;
+    font-size: 48px;
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;    
+}
+.Packages h3::after, .Packages h3::before{
+    content: "";
+    background: #fff;
+    width: 200px;
+    height: 4px;
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    align-items: stretch;
+}
+
+.Packages a{
+    margin: 30px auto;
+    padding: 5px 20px;
+    border: #222222 4px solid;
+    color: #222222;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 36px;
+    text-decoration: none;
+   
+}
+
+.Packages ul li{
+    font-size: 20px;
+    color: #7c7c7c;
+    display: flex;
+    font-style: italic;
+    line-height: 40px;
+}
