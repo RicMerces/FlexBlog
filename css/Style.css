@@ -339,3 +339,14 @@ img{
     margin-left: -10px;
     cursor: pointer;
 }
+
+
+/* Footer */
+
+footer{
+    background: #2c70ff;
+    color: #122ab2;
+    padding: 50px;
+    text-align: center;
+}
+
