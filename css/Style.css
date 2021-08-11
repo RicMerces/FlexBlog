@@ -133,6 +133,7 @@ img{
 }
 
 .Propriedades .Products .Caixas{
+    margin: 50px 0;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
@@ -154,20 +155,39 @@ img{
 
 .Propriedades .Products .TypeColor{
     height: 170px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 .Propriedades .Products .TypeColor h3{
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
+
     margin-left: 20px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    
 }
+
 .Propriedades .Products .TypeColor::before{
     display: flex;
     flex-direction: column;
+    justify-self: flex-start;
     content: "";
     background: #2c70ff;
     height: 10px;
     width: 100%;
-    margin: 0;
+}
+
+.Propriedades .Products .purple .TypeColor::before{
+    background-color: #ae81ff;
+}
+
+.Propriedades .Products .pink .TypeColor::before{
+    background-color: #f9265e;
+}
+
+.Propriedades .Products .blue .TypeColor::before{
+    background-color: #66d9eb;
 }
